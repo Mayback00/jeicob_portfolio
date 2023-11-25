@@ -1,0 +1,21 @@
+/* styles.css */
+
+body {
+    text-align: center;
+    padding-top: 20%;
+    background-image: url('assets/images/bgs/nws_bg1200.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #070707; /* Ajusta el color del texto según el fondo */
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #080808; /* Ajusta el color del texto según el fondo */
+  }
+  

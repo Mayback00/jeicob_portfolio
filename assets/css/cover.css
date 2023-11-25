@@ -1,0 +1,46 @@
+/* Estilo para la portada o sección de introducción */
+
+body 
+  h1 {
+    font-size: 2.5rem;
+    color: #fdfdfd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+.cover-section {
+    height: 100vh; /* Tamaño del 100% del viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Estilo para el fondo de la portada */
+  .cover-section {
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  /* Estilo para el texto de la portada */
+  .cover-text {
+    color: #0a0a0a;
+  }
+  
+  /* Estilo para el enlace de la portada */
+  .cover-text a {
+    color: #050505; /* Color del enlace */
+  }
+  
+  /* "hovered" */
+  .cover-text a:hover {
+    color: #050505;
+    text-decoration: none;
+  }
+  
