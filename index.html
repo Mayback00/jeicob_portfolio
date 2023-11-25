@@ -14,6 +14,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
     <title>CV Jeicob</title>
 </head>
 
@@ -87,12 +88,11 @@
 
     <!-- Barra desplegable inferior -->
     <div class="fixed-bottom" id="bottomBar">
-        <button id="bottomBarButton" class="btn btn-dark" data-toggle="collapse" data-target="#bottomBarContent" aria-expanded="false"
-            aria-controls="bottomBarContent">
-            <i class="fas fa-arrow-up"></i>
+        <button id="bottomBarButton" class="btn btn-dark" data-toggle="collapse" data-target="#bottomBarContent" aria-expanded="false" aria-controls="bottomBarContent" onclick="toggleBottomBarArrow()">
+            <i class="fas fa-arrow-up" id="bottomBarArrow"></i>
         </button>
         <div class="collapse" id="bottomBarContent">
-            <div class="card card-body">
+            <div class="card card-body bottom-bar">
                 <div class="container text-center">
                     <a href="enlace/linkedin"><img src="/assets/images/svg/logo_linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;"> LinkedIn</a>
                     <a href="enlace/github"><img src="/assets/images/svg/logo_github.png" alt="GitHub" style="width: 30px; height: 30px;"> GitHub</a>
