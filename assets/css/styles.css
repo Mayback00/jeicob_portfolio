@@ -157,12 +157,12 @@ a.nav-link {
 .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-  }
+}
   
 .fadeOut {
     -webkit-animation-name: fadeOut;
     animation-name: fadeOut;
-  }
+}
 
 .animated {
     -webkit-animation-duration: 1s;
@@ -175,31 +175,37 @@ a.nav-link {
     -webkit-animation-delay: 3000ms;
     -moz-animation-delay: 3000ms;
     animation-delay: 3000ms;
-  }
+}
 .dur-2 {
     -webkit-animation-duration: 2900ms;
     -moz-animation-duration: 2900ms;
     animation-duration: 2900ms;
-  }
+}
 
 .del-8 {
     -webkit-animation-delay: 8000ms;
     -moz-animation-delay: 8000ms;
     animation-delay: 8000ms;
-  }
+}
 .dur-4 {
     -webkit-animation-duration: 4900ms;
     -moz-animation-duration: 4900ms;
     animation-duration: 4900ms;
-  }
+}
 
 .del-5 {
     -webkit-animation-delay: 5000ms;
     -moz-animation-delay: 5000ms;
     animation-delay: 5000ms;
-  }
+}
 .dur-4 {
     -webkit-animation-duration: 4900ms;
     -moz-animation-duration: 4900ms;
     animation-duration: 4900ms;
-  }
+}
+
+.del-7 {
+    -webkit-animation-delay: 7000ms;
+    -moz-animation-delay: 7000ms;
+    animation-delay: 7000ms;
+}
