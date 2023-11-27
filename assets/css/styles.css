@@ -1,10 +1,14 @@
 /* styles.css */
 
 body {
+    background: #00171f;
+    font-size: 0.8rem;
+  }
+
+body {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-image: url('/assets/images/bgs/nws_bg1200.png');
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -48,6 +52,16 @@ body {
     height: 100vh;
 }
 
+#main_cover .nws_cover {
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
 .nws_cover, .nws_color {
     position: absolute;
     top: 0;
@@ -55,6 +69,13 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.nws_cover {
+    background: url("/assets/images/bgs/nws_bg1200.png") center center;
+    background-size: auto;
+    background-size: cover;
+    position: fixed;
+  }
 
 #entry {
     background-color: transparent;
@@ -64,7 +85,7 @@ body {
     /* position: absolute; */
     /* top: 30%; */
     /* left: 50%; */
-    /*margin-top: 150px;*/
+    /* margin-top: 150px; */
     /* transform: translate(-50%, -50%); */
     margin-top: 5rem;
     text-align: center;
@@ -132,3 +153,53 @@ a.nav-link {
     text-decoration: none;
     opacity: 1;
 }
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+  
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+  }
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.del-3 {
+    -webkit-animation-delay: 3000ms;
+    -moz-animation-delay: 3000ms;
+    animation-delay: 3000ms;
+  }
+.dur-2 {
+    -webkit-animation-duration: 2900ms;
+    -moz-animation-duration: 2900ms;
+    animation-duration: 2900ms;
+  }
+
+.del-8 {
+    -webkit-animation-delay: 8000ms;
+    -moz-animation-delay: 8000ms;
+    animation-delay: 8000ms;
+  }
+.dur-4 {
+    -webkit-animation-duration: 4900ms;
+    -moz-animation-duration: 4900ms;
+    animation-duration: 4900ms;
+  }
+
+.del-5 {
+    -webkit-animation-delay: 5000ms;
+    -moz-animation-delay: 5000ms;
+    animation-delay: 5000ms;
+  }
+.dur-4 {
+    -webkit-animation-duration: 4900ms;
+    -moz-animation-duration: 4900ms;
+    animation-duration: 4900ms;
+  }

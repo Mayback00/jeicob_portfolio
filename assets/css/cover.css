@@ -35,12 +35,12 @@ body
   
   /* Estilo para el enlace de la portada */
   .cover-text a {
-    color: #050505; /* Color del enlace */
+    color: #f9f8f8; /* Color del enlace */
   }
   
   /* "hovered" */
   .cover-text a:hover {
-    color: #050505;
+    color: #fcfafa;
     text-decoration: none;
   }
 
