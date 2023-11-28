@@ -12,7 +12,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    color: #fff;
+    color: #141415;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #141415;
 }
 
 .logo_grid {
@@ -82,11 +85,6 @@ body {
 }
 
 .first_text {
-    /* position: absolute; */
-    /* top: 30%; */
-    /* left: 50%; */
-    /* margin-top: 150px; */
-    /* transform: translate(-50%, -50%); */
     margin-top: 5rem;
     text-align: center;
     -webkit-user-select: none;
@@ -171,6 +169,17 @@ a.nav-link {
     animation-fill-mode: both;
 }
 
+.del-1 {
+    -webkit-animation-delay: 500ms;
+    -moz-animation-delay: 500ms;
+    animation-delay: 500ms;
+}
+.dur-1 {
+    -webkit-animation-duration: 1000ms;
+    -moz-animation-duration: 1000ms;
+    animation-duration: 1000ms;
+}
+
 .del-3 {
     -webkit-animation-delay: 3000ms;
     -moz-animation-delay: 3000ms;
@@ -209,3 +218,103 @@ a.nav-link {
     -moz-animation-delay: 7000ms;
     animation-delay: 7000ms;
 }
+
+text-left {
+    text-align: left !important;
+  }
+  @media (min-width: 576px) {
+    .card-columns {
+      -webkit-column-count: 3;
+      column-count: 3;
+      -webkit-column-gap: 1.25rem;
+      column-gap: 1.25rem;
+    }
+  }
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+
+  :host, :root {
+    --rem: 16;
+  }
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  #main_template {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .container-fluid:first-child {
+    padding: 0px !important;
+  }
+  .container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+  }
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+
+  .del-1-4 {
+    -webkit-animation-delay: 1400ms;
+    -moz-animation-delay: 1400ms;
+    animation-delay: 1400ms;
+  }
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .del-1-6 {
+    -webkit-animation-delay: 1600ms;
+    -moz-animation-delay: 1600ms;
+    animation-delay: 1600ms;
+  }
+
+  .del-1-8 {
+    -webkit-animation-delay: 1800ms;
+    -moz-animation-delay: 1800ms;
+    animation-delay: 1800ms;
+  }
+
+  .del-2-6 {
+    -webkit-animation-delay: 2600ms;
+    -moz-animation-delay: 2600ms;
+    animation-delay: 2600ms;
+  }
+
+  .del-2-9 {
+    -webkit-animation-delay: 2000ms;
+    -moz-animation-delay: 2000ms;
+    animation-delay: 2000ms;
+  }
+
+  .del-2-2 {
+    -webkit-animation-delay: 2200ms;
+    -moz-animation-delay: 2200ms;
+    animation-delay: 2200ms;
+  }
+
+  .del-2-4 {
+    -webkit-animation-delay: 2400ms;
+    -moz-animation-delay: 2400ms;
+    animation-delay: 2400ms;
+  }
