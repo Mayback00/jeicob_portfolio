@@ -18,6 +18,26 @@ body {
     color: #141415;
 }
 
+.col-lg-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 .logo_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -64,6 +84,19 @@ body {
     height: 100%;
     z-index: -1;
   }
+
+  #main_template .nws_cover {
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
 
 .nws_cover, .nws_color {
     position: absolute;
@@ -174,6 +207,19 @@ a.nav-link {
     -moz-animation-delay: 500ms;
     animation-delay: 500ms;
 }
+
+.del-1-2 {
+  -webkit-animation-delay: 1200ms;
+  -moz-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+
+.del-2-1 {
+  -webkit-animation-delay: 2100ms;
+  -moz-animation-delay: 2100ms;
+  animation-delay: 2100ms;
+}
+
 .dur-1 {
     -webkit-animation-duration: 1000ms;
     -moz-animation-duration: 1000ms;
@@ -211,6 +257,12 @@ a.nav-link {
     -webkit-animation-duration: 4900ms;
     -moz-animation-duration: 4900ms;
     animation-duration: 4900ms;
+}
+
+.dur-0-8 {
+  -webkit-animation-duration: 800ms;
+  -moz-animation-duration: 800ms;
+  animation-duration: 800ms;
 }
 
 .del-7 {
@@ -318,3 +370,4 @@ text-left {
     -moz-animation-delay: 2400ms;
     animation-delay: 2400ms;
   }
+  
